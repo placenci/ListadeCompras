@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compras da Semana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Compras da Semana</h1>
+    <form id="add-item-form">
+      <input type="text" id="new-item" placeholder="Adicionar item..." required>
+      <button type="submit">Adicionar</button>
+    </form>
+    <ul id="shopping-list">
+      <li>Pão de forma <button class="remove-btn">Remover</button></li>
+      <li>Café preto <button class="remove-btn">Remover</button></li>
+      <li>Suco de laranja <button class="remove-btn">Remover</button></li>
+      <li>Bolacha <button class="remove-btn">Remover</button></li>
+    </ul>
+    <div id="feedback"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
